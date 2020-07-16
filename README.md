@@ -1,68 +1,92 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img width="200" src="./src/assets/img/logo.svg" alt="COVID-19 Tracker">
+</p>
 
-## Available Scripts
+<h3 align="center">COVID-19 Tracker</h3>
 
-In the project directory, you can run:
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/joel-fragoso/covid19-tracker">
 
-### `yarn start`
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/joel-fragoso/covid19-tracker">
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <a href="https://github.com/joel-fragoso/covid19-tracker/blob/master/LICENSE">
+    <img alt="GitHub" src="https://img.shields.io/github/license/joel-fragoso/covid19-tracker">
+  </a>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  <img alt="GitHub stars" src="https://img.shields.io/github/stars/joel-fragoso/covid19-tracker?style=social">
+</p>
 
-### `yarn test`
+<hr>
+<p align="center">
+  <a href=#overview>Overview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href=#tecnologias>Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href=#como-usar>Como usar?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href=#licença>Licença</a>
+</p>
+<hr>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Overview
 
-### `yarn build`
+O COVID-19 Tracker possui estatísticas mundiais em tempo real sobre o coronavírus, informações confiáveis de fontes confiáveis sobre a doença do coronavírus.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Mundial
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<p align="center">
+  <img width="49%" src="./src/assets/screenshot-mundial.png" alt="COVID-19 Tracker Mundial 1">
+  <img width="49%" src="./src/assets/screenshot-mundial-chart.png" alt="COVID-19 Tracker Mundial 2">
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Brasil
 
-### `yarn eject`
+<p align="center">
+  <img width="49%" src="./src/assets/screenshot-brazil.png" alt="COVID-19 Tracker Brazil 1">
+  <img width="49%" src="./src/assets/screenshot-brazil-chart.png" alt="COVID-19 Tracker Brazil 2">
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Tecnologias
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [ReactJS](https://pt-br.reactjs.org/)
+- [ChartJS](https://www.chartjs.org/)
+- [React ChartJS 2](https://github.com/jerairrest/react-chartjs-2)
+- [React CountUp](https://www.npmjs.com/package/react-countup)
+- [Axios](https://github.com/axios/axios)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Como usar?
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Para executar este projeto você vai precisar ter instalado o [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/), [Yarn](https://yarnpkg.com/) e o [ReactJS](https://pt-br.reactjs.org/) no seu computador.
 
-## Learn More
+### Clonando o repositório
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Utilizando HTTP
+$ git clone https://github.com/joel-fragoso/covid19-tracker.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ou
 
-### Code Splitting
+# Utilizando SSH
+$ git clone git@github.com:joel-fragoso/covid19-tracker.git
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+depois acesse a pasta
 
-### Analyzing the Bundle Size
+```bash
+$ cd covid19-tracker
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Instalando as dependências
+```bash
+$ yarn install
+```
 
-### Making a Progressive Web App
+### Executando projeto
+```bash
+$ yarn start
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Licença
 
-### Advanced Configuration
+Este projeto está sobre Licença MIT. Veja mais em [LICENSE](LICENSE).
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+<hr>
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Feito com ❤️ por Joel Fragoso 👋️ [LinkedIn!](https://www.linkedin.com/in/joel-fragoso-0906611a9/)
